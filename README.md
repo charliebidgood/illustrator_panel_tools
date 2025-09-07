@@ -1,5 +1,9 @@
 # illustrator_panel_tools
-This repository includes two scripts validated for Adobe Illustrator 2025 to automatically resize square images to the same dimensions (same_size.jsx) and subsequently create a perfect grid of images given a number of columns and provided spacing (autogrid.jsx). This was specifically made to help quickly create perfectly sized and spaced multi-image microscopy panels which can't be natively performed in Illustrator in a single-click.
+This repository includes two scripts validated for Adobe Illustrator 2025 to automatically resize square images to the same dimensions (same_size.jsx) and subsequently create a perfect grid of images given a number of columns and desired spacing (autogrid.jsx). This was specifically made to help quickly create perfectly sized and spaced multi-image microscopy panels which can't be natively performed in Illustrator in a single-click.
+
+### Notes
+* Scripts only work for square images (e.g. images with the same W and H) or they may be distorted.
+* Autogrid only works where all images have the exact same dimensions (i.e. resized with same_size.jsx)
 
 ### Installation and Running the Scripts 
 
